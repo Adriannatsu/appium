@@ -36,7 +36,7 @@ example_usage:
       // TODO PHP sample
   csharp:
     |
-     driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(30);
+     driver.Manage().Timeouts().ImplicitWait(TimeSpan.FromSeconds(30));
 
 
 client_docs:
